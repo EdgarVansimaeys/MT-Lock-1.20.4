@@ -1,0 +1,4 @@
+name: MT-Lock
+version: '${project.version}'
+main: be.nateoncaprisun.mtlock.MTLock
+api-version: '1.20'

@@ -1,0 +1,4 @@
+name: MT-Lock
+version: '1.1'
+main: be.nateoncaprisun.mtlock.MTLock
+api-version: '1.20'
