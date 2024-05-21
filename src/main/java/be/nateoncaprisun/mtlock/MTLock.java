@@ -98,7 +98,7 @@ public final class MTLock extends JavaPlugin {
         return player.hasPermission("group." + group);
     }
 
-    public static String getPlayerGroup(Player player, Collection<String> possibleGroups) {
+    public static String getPlayerGroup(Player player, List<String> possibleGroups) {
         for (String group : possibleGroups) {
             if (player.hasPermission("group." + group)) {
                 return group;

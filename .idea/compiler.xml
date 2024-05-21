@@ -9,8 +9,5 @@
         <module name="MT-Lock" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="MT-Lock" target="9" />
-    </bytecodeTargetLevel>
   </component>
 </project>

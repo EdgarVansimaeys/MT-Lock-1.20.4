@@ -40,7 +40,7 @@ public class LockCommand extends BaseCommand {
             player.sendMessage(Utils.color("&8&m---------------------------------"));
             player.sendMessage("");
             player.sendMessage(Utils.color("&8&l» &6MT-Lock"));
-            player.sendMessage(Utils.color("&8&l» &fVersie: &e1.1.0"));
+            player.sendMessage(Utils.color("&8&l» &fVersie: &e1.2.0"));
             player.sendMessage(Utils.color("&8&l» &fBy &f&lNateOnCaprisun"));
             player.sendMessage("");
             player.sendMessage(Utils.color("&7/lock help &8➠ &fKrijg dit bericht"));
@@ -55,7 +55,7 @@ public class LockCommand extends BaseCommand {
             player.sendMessage(Utils.color("&8&m---------------------------------"));
             player.sendMessage("");
             player.sendMessage(Utils.color("&8&l» &6MT-Lock"));
-            player.sendMessage(Utils.color("&8&l» &fVersie: &e1.0.0"));
+            player.sendMessage(Utils.color("&8&l» &fVersie: &e1.2.0"));
             player.sendMessage(Utils.color("&8&l» &fBy &f&lNateOnCaprisun"));
             player.sendMessage("");
             player.sendMessage(Utils.color("&7/lock help &8➠ &fKrijg dit bericht"));

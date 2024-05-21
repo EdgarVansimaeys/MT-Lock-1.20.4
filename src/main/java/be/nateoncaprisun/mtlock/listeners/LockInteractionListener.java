@@ -20,6 +20,7 @@ import org.bukkit.persistence.PersistentDataContainer;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 public class LockInteractionListener implements Listener {
 
@@ -117,8 +118,9 @@ public class LockInteractionListener implements Listener {
         //player.sendMessage("Owner: " + (lock.getOwner().equals(player.getUniqueId())));
         //player.sendMessage("Member: " + (lock.getMembers().contains(player.getUniqueId())));
 
-        Collection<String> stringCollection = MTLock.getInstance().getLockGroups().get(block.getLocation());
+        List<String> stringCollection = MTLock.getInstance().getLockGroups().get(block.getLocation());
         if (stringCollection == null) stringCollection = new ArrayList<>();
+        stringCollection.add("owner");
         if (!lock.getOwner().equals(player.getUniqueId()) && !lock.getMembers().contains(player.getUniqueId()) && !player.hasPermission("lock.admin") && !stringCollection.contains(MTLock.getPlayerGroup(player, stringCollection))) {
             player.sendMessage(ChatUtils.color(MTLock.getInstance().getConfig().getString("Not-Member")));
             event.setCancelled(true);
