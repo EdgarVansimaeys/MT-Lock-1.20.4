@@ -39,9 +39,8 @@ public class LockCommand extends BaseCommand {
         if (!player.hasPermission("lock.admin") && !player.isOp()) {
             player.sendMessage(Utils.color("&8&m---------------------------------"));
             player.sendMessage("");
-            player.sendMessage(Utils.color("&8&l» &6MT-Lock"));
+            player.sendMessage(Utils.color("&8&l» &6CraftVille-Lock"));
             player.sendMessage(Utils.color("&8&l» &fVersie: &e1.2.0"));
-            player.sendMessage(Utils.color("&8&l» &fBy &f&lNateOnCaprisun"));
             player.sendMessage("");
             player.sendMessage(Utils.color("&7/lock help &8➠ &fKrijg dit bericht"));
             player.sendMessage(Utils.color("&7/lock &8➠ &fMaak een lock"));
@@ -54,9 +53,8 @@ public class LockCommand extends BaseCommand {
         } else {
             player.sendMessage(Utils.color("&8&m---------------------------------"));
             player.sendMessage("");
-            player.sendMessage(Utils.color("&8&l» &6MT-Lock"));
+            player.sendMessage(Utils.color("&8&l» &6CraftVille-Lock"));
             player.sendMessage(Utils.color("&8&l» &fVersie: &e1.2.0"));
-            player.sendMessage(Utils.color("&8&l» &fBy &f&lNateOnCaprisun"));
             player.sendMessage("");
             player.sendMessage(Utils.color("&7/lock help &8➠ &fKrijg dit bericht"));
             player.sendMessage(Utils.color("&7/lock &8➠ &fMaak een lock"));
